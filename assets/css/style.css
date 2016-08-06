@@ -1,11 +1,3 @@
-#map-canvas {
-    width: 100%;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-    opacity: 0.6;
-}
-
 body {
     background-image: url(../images/body.jpg);
 }
@@ -107,6 +99,7 @@ nav {
     background: url(../images/background-04.jpg) no-repeat;
     background-size: cover;
     height: 700px;
+
 }
 
 #fifth-page {
@@ -261,9 +254,6 @@ nav {
     margin: 25px auto 0;
 }
 
-
-/* Input Styles */
-
 .form {
     width: 100%;
     padding: 15px;
@@ -294,9 +284,6 @@ nav {
     max-width: 100%;
 }
 
-
-/* Generic Button Styles */
-
 .button {
     padding: 8px 12px;
     background: #0A5175;
@@ -318,9 +305,6 @@ nav {
     background: #8BC3A3;
     color: white;
 }
-
-
-/* Send Button Styles */
 
 .form-btn {
     width: 180px;
@@ -379,4 +363,12 @@ input {
 
 .fa:hover {
     color: #5BC0DE;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
 }
